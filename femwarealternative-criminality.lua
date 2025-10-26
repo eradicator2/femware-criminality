@@ -6171,7 +6171,7 @@ Loaded, LoadError = pcall(function()
 					game.Players.LocalPlayer.Character.HumanoidRootPart.Position = Position
 					wait()
 					game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Anchored = true
-					game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer("__--r", Vector3.new(0, 0, 0), CFrame.new(0, 0, 0))
+					game:GetService("ReplicatedStorage").Events.__RZDONL:FireServer("__---r", Vector3.new(0, 0, 0), CFrame.new(0, 0, 0))
 				end
 				game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Anchored = false
 				game.Players.LocalPlayer.Character.HumanoidRootPart.Position = Position				
@@ -6691,7 +6691,7 @@ Loaded, LoadError = pcall(function()
 										end))
 										coroutine.resume(coroutine.create(function()
 											if library.flags["Kill Aura Mode"] == "Legit" then
-												local KillAuraValue = game:GetService("ReplicatedStorage").Events["XMHH.1"]:InvokeServer("\240\159\154\168", tick(), game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool"), "43TRFWJ", "Normal", tick(), true)
+												local KillAuraValue = game:GetService("ReplicatedStorage").Events["XMHH.2"]:InvokeServer("🍞", tick(), game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool"), "43TRFWX", "Normal", tick(), true)
 												if library.flags["Kill Aura Mode"] == "Legit" then
 													if KillAuraAttempt == 0 then
 														game:GetService("Players").LocalPlayer.Character.Humanoid:LoadAnimation(game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool").AnimsFolder.Slash1):Play()
@@ -6700,17 +6700,17 @@ Loaded, LoadError = pcall(function()
 													end
 												end
 												if game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool").Name == "Fists" then
-													game:GetService("ReplicatedStorage").Events["XMHH2.1"]:FireServer("\240\159\154\168", tick(), game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool"), "2389ZFX33", KillAuraValue, false, game:GetService("Players").LocalPlayer.Character["Right Arm"], ((library.flags["Kill Aura Target Part"] == "Random" and ClosestHumanoidRootPart.Parent[ValidTargetParts[math.random(1, # ValidTargetParts)]]) or ClosestHumanoidRootPart.Parent[library.flags["Kill Aura Target Part"]]), ClosestHumanoidRootPart.Parent, game:GetService("Players").LocalPlayer.Character["Right Arm"].Position, ((library.flags["Kill Aura Target Part"] == "Random" and ClosestHumanoidRootPart.Parent[ValidTargetParts[math.random(1, # ValidTargetParts)]]) or ClosestHumanoidRootPart.Parent[library.flags["Kill Aura Target Part"]]).Position)
+													game:GetService("ReplicatedStorage").Events["XMHH2.2"]:FireServer("🍞", tick(), game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool"), "2389ZFX34", KillAuraValue, false, game:GetService("Players").LocalPlayer.Character["Right Arm"], ((library.flags["Kill Aura Target Part"] == "Random" and ClosestHumanoidRootPart.Parent[ValidTargetParts[math.random(1, # ValidTargetParts)]]) or ClosestHumanoidRootPart.Parent[library.flags["Kill Aura Target Part"]]), ClosestHumanoidRootPart.Parent, game:GetService("Players").LocalPlayer.Character["Right Arm"].Position, ((library.flags["Kill Aura Target Part"] == "Random" and ClosestHumanoidRootPart.Parent[ValidTargetParts[math.random(1, # ValidTargetParts)]]) or ClosestHumanoidRootPart.Parent[library.flags["Kill Aura Target Part"]]).Position)
 												else
 													repeat
 														wait()
 													until game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool").Handle.Trail.Enabled
-													game:GetService("ReplicatedStorage").Events["XMHH2.1"]:FireServer("\240\159\154\168", tick(), game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool"), "2389ZFX33", KillAuraValue, false, game:GetService("Players").LocalPlayer.Character["Right Arm"], ((library.flags["Kill Aura Target Part"] == "Random" and ClosestHumanoidRootPart.Parent[ValidTargetParts[math.random(1, # ValidTargetParts)]]) or ClosestHumanoidRootPart.Parent[library.flags["Kill Aura Target Part"]]), ClosestHumanoidRootPart.Parent, game:GetService("Players").LocalPlayer.Character["Right Arm"].Position, ((library.flags["Kill Aura Target Part"] == "Random" and ClosestHumanoidRootPart.Parent[ValidTargetParts[math.random(1, # ValidTargetParts)]]) or ClosestHumanoidRootPart.Parent[library.flags["Kill Aura Target Part"]]).Position)
+													game:GetService("ReplicatedStorage").Events["XMHH2.2"]:FireServer("🍞", tick(), game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool"), "2389ZFX34", KillAuraValue, false, game:GetService("Players").LocalPlayer.Character["Right Arm"], ((library.flags["Kill Aura Target Part"] == "Random" and ClosestHumanoidRootPart.Parent[ValidTargetParts[math.random(1, # ValidTargetParts)]]) or ClosestHumanoidRootPart.Parent[library.flags["Kill Aura Target Part"]]), ClosestHumanoidRootPart.Parent, game:GetService("Players").LocalPlayer.Character["Right Arm"].Position, ((library.flags["Kill Aura Target Part"] == "Random" and ClosestHumanoidRootPart.Parent[ValidTargetParts[math.random(1, # ValidTargetParts)]]) or ClosestHumanoidRootPart.Parent[library.flags["Kill Aura Target Part"]]).Position)
 												end
 											else
-												local KillAuraValue = game:GetService("ReplicatedStorage").Events["XMHH.1"]:InvokeServer("\240\159\154\168", tick(), game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool"), "43TRFWJ", "Normal", tick(), true)
+												local KillAuraValue = game:GetService("ReplicatedStorage").Events["XMHH.2"]:InvokeServer("🍞", tick(), game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool"), "43TRFWX", "Normal", tick(), true)
 												wait(KillAuraTime)
-												game:GetService("ReplicatedStorage").Events["XMHH2.1"]:FireServer("\240\159\154\168", tick(), game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool"), "2389ZFX33", KillAuraValue, false, game:GetService("Players").LocalPlayer.Character["Right Arm"], ((library.flags["Kill Aura Target Part"] == "Random" and ClosestHumanoidRootPart.Parent[ValidTargetParts[math.random(1, # ValidTargetParts)]]) or ClosestHumanoidRootPart.Parent[library.flags["Kill Aura Target Part"]]), ClosestHumanoidRootPart.Parent, game:GetService("Players").LocalPlayer.Character["Right Arm"].Position, ((library.flags["Kill Aura Target Part"] == "Random" and ClosestHumanoidRootPart.Parent[ValidTargetParts[math.random(1, # ValidTargetParts)]]) or ClosestHumanoidRootPart.Parent[library.flags["Kill Aura Target Part"]]).Position)
+												game:GetService("ReplicatedStorage").Events["XMHH2.2"]:FireServer("🍞", tick(), game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool"), "2389ZFX34", KillAuraValue, false, game:GetService("Players").LocalPlayer.Character["Right Arm"], ((library.flags["Kill Aura Target Part"] == "Random" and ClosestHumanoidRootPart.Parent[ValidTargetParts[math.random(1, # ValidTargetParts)]]) or ClosestHumanoidRootPart.Parent[library.flags["Kill Aura Target Part"]]), ClosestHumanoidRootPart.Parent, game:GetService("Players").LocalPlayer.Character["Right Arm"].Position, ((library.flags["Kill Aura Target Part"] == "Random" and ClosestHumanoidRootPart.Parent[ValidTargetParts[math.random(1, # ValidTargetParts)]]) or ClosestHumanoidRootPart.Parent[library.flags["Kill Aura Target Part"]]).Position)
 											end
 										end))
 										if library.flags["Kill Aura Mode"] == "Legit" then
@@ -6827,14 +6827,14 @@ Loaded, LoadError = pcall(function()
 										FinishAuraCoolDown = true
 										coroutine.resume(coroutine.create(function()
 											if library.flags["Finish Aura Mode"] == "Legit" then
-												local FinishAuraValue = game:GetService("ReplicatedStorage").Events["XMHH.1"]:InvokeServer("\240\159\154\168", tick(), game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool"), "EXECQQ")
+												local FinishAuraValue = game:GetService("ReplicatedStorage").Events["XMHH.2"]:InvokeServer("🍞", tick(), game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool"), "EXECQX")
 												game:GetService("Players").LocalPlayer.Character.Humanoid:LoadAnimation(game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool").AnimsFolder.Finish):Play(0.15, 1, require(game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool").Config).Mains.S1.AnimSpeed * game:GetService("ReplicatedStorage").Values.FinishSpeedMulti.Value)
 												wait(0.5)
-												game:GetService("ReplicatedStorage").Events["XMHH2.1"]:FireServer("\240\159\154\168", tick(), game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool"), "2389ZFX33", FinishAuraValue, false, game:GetService("Players").LocalPlayer.Character["Right Leg"], ((library.flags["Finish Aura Target Part"] == "Random" and ClosestHumanoidRootPart.Parent[ValidTargetParts[math.random(1, # ValidTargetParts)]]) or ClosestHumanoidRootPart.Parent[library.flags["Finish Aura Target Part"]]), ClosestHumanoidRootPart.Parent, game:GetService("Players").LocalPlayer.Character["Right Leg"].Position, ((library.flags["Finish Aura Target Part"] == "Random" and ClosestHumanoidRootPart.Parent[ValidTargetParts[math.random(1, # ValidTargetParts)]]) or ClosestHumanoidRootPart.Parent[library.flags["Finish Aura Target Part"]]).Position)
+												game:GetService("ReplicatedStorage").Events["XMHH2.2"]:FireServer("🍞", tick(), game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool"), "2389ZFX34", FinishAuraValue, false, game:GetService("Players").LocalPlayer.Character["Right Leg"], ((library.flags["Finish Aura Target Part"] == "Random" and ClosestHumanoidRootPart.Parent[ValidTargetParts[math.random(1, # ValidTargetParts)]]) or ClosestHumanoidRootPart.Parent[library.flags["Finish Aura Target Part"]]), ClosestHumanoidRootPart.Parent, game:GetService("Players").LocalPlayer.Character["Right Leg"].Position, ((library.flags["Finish Aura Target Part"] == "Random" and ClosestHumanoidRootPart.Parent[ValidTargetParts[math.random(1, # ValidTargetParts)]]) or ClosestHumanoidRootPart.Parent[library.flags["Finish Aura Target Part"]]).Position)
 											else
-												local FinishAuraValue = game:GetService("ReplicatedStorage").Events["XMHH.1"]:InvokeServer("\240\159\154\168", tick(), game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool"), "EXECQQ")
+												local FinishAuraValue = game:GetService("ReplicatedStorage").Events["XMHH.2"]:InvokeServer("🍞", tick(), game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool"), "EXECQX")
 												wait(0.5)
-												game:GetService("ReplicatedStorage").Events["XMHH2.1"]:FireServer("\240\159\154\168", tick(), game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool"), "2389ZFX33", FinishAuraValue, false, game:GetService("Players").LocalPlayer.Character["Right Leg"], ((library.flags["Finish Aura Target Part"] == "Random" and ClosestHumanoidRootPart.Parent[ValidTargetParts[math.random(1, # ValidTargetParts)]]) or ClosestHumanoidRootPart.Parent[library.flags["Finish Aura Target Part"]]), ClosestHumanoidRootPart.Parent, game:GetService("Players").LocalPlayer.Character["Right Leg"].Position, ((library.flags["Finish Aura Target Part"] == "Random" and ClosestHumanoidRootPart.Parent[ValidTargetParts[math.random(1, # ValidTargetParts)]]) or ClosestHumanoidRootPart.Parent[library.flags["Finish Aura Target Part"]]).Position)
+												game:GetService("ReplicatedStorage").Events["XMHH2.2"]:FireServer("🍞", tick(), game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool"), "2389ZFX34", FinishAuraValue, false, game:GetService("Players").LocalPlayer.Character["Right Leg"], ((library.flags["Finish Aura Target Part"] == "Random" and ClosestHumanoidRootPart.Parent[ValidTargetParts[math.random(1, # ValidTargetParts)]]) or ClosestHumanoidRootPart.Parent[library.flags["Finish Aura Target Part"]]), ClosestHumanoidRootPart.Parent, game:GetService("Players").LocalPlayer.Character["Right Leg"].Position, ((library.flags["Finish Aura Target Part"] == "Random" and ClosestHumanoidRootPart.Parent[ValidTargetParts[math.random(1, # ValidTargetParts)]]) or ClosestHumanoidRootPart.Parent[library.flags["Finish Aura Target Part"]]).Position)
 											end
 										end))
 										if library.flags["Finish Aura Mode"] == "Legit" then
@@ -7112,11 +7112,11 @@ Loaded, LoadError = pcall(function()
 				if library and library.flags[GameTitle .. " Disable BarbWire"] then
 					return wait(9e9)
 				end
-			elseif Method == "FireServer" and Args[1] == "FlllD" or Args[1] == "FlllH" then
+			elseif Method == "FireServer" and Args[1] == "FallD" or Args[1] == "FallH" then
 				if library and library.flags[GameTitle .. " Disable Fall Damage"] then
 					return wait(9e9)
 				end
-			elseif Method == "FireServer" and Args[1] == "__--r" or Args[1] == "HITRGP" or Args[1] == "FllH" then
+			elseif Method == "FireServer" and Args[1] == "__---r" or Args[1] == "HITRGP" or Args[1] == "FllH" then
 				if library and library.flags[GameTitle .. " Disable Ragdoll"] then
 					return wait(9e9)
 				end
@@ -7160,7 +7160,7 @@ Loaded, LoadError = pcall(function()
 										if (game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").Position - v:FindFirstChild("MeshPart").Position).Magnitude < library.flags[GameTitle .. " Auto Pick Scrap Range"] then
 											if ScrapCoolDown == false then
 												ScrapCoolDown = true
-												game:GetService("ReplicatedStorage").Events.PIC_PU:FireServer(string.reverse(v:GetAttribute("zp")))
+												game:GetService("ReplicatedStorage").Events.PIC_PU:FireServer(string.reverse(v:GetAttribute("jzu")))
 												wait(1)
 												ScrapCoolDown = false
 											end
@@ -7291,8 +7291,8 @@ Loaded, LoadError = pcall(function()
 									local ClosestDoor = GetDoor(library.flags[GameTitle .. " Auto Break Door Range"], false)
 									if ClosestDoor and not AutoBreakDoorCoolDown then
 										AutoBreakDoorCoolDown = true
-										local AutoBreakDoorValue = game:GetService("ReplicatedStorage").Events["XMHH.1"]:InvokeServer("\240\159\154\168", tick(), game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool"), "DZDRRRKI", ClosestDoor.Parent, "Door")
-										game:GetService("ReplicatedStorage").Events["XMHH2.1"]:FireServer("\240\159\154\168", tick(), game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool"), "2389ZFX33", AutoBreakDoorValue, false, game:GetService("Players").LocalPlayer.Character["Right Leg"], ClosestDoor, ClosestDoor.Parent, ClosestDoor.Position, ClosestDoor.Position)
+										local AutoBreakDoorValue = game:GetService("ReplicatedStorage").Events["XMHH.2"]:InvokeServer("🍞", tick(), game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool"), "DZDRRRKI", ClosestDoor.Parent, "Door")
+										game:GetService("ReplicatedStorage").Events["XMHH2.2"]:FireServer("🍞", tick(), game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool"), "2389ZFX34", AutoBreakDoorValue, false, game:GetService("Players").LocalPlayer.Character["Right Leg"], ClosestDoor, ClosestDoor.Parent, ClosestDoor.Position, ClosestDoor.Position)
 										wait(0.5)
 										AutoBreakDoorCoolDown = false
 									end
